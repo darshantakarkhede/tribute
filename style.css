@@ -1,0 +1,49 @@
+
+body {
+   height: 100vh;
+   background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+   font-family: 'Roboto', sans-serif;
+   /* text-align: center; */
+}
+.header{
+    width: 800px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
+    
+}
+h1{
+   padding-top: 100px;
+   color: blueviolet;
+   
+}
+.article{
+    text-align: left;
+}
+img{
+width: 150px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.5s;
+}
+div{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center
+}
+li{
+    padding: 5px;
+}
+a:hover{
+    background: red;
+    color: white;
+    border-radius: 4px;
+}
+img:hover{
+    transform: translateY(-8px);
+}
